@@ -7,4 +7,5 @@ def home(request):
     context = {
         'products': products
     }
+    test
     return render(request, 'home.html', context)
